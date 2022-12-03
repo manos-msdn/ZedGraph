@@ -6,9 +6,10 @@
     using System.Reflection;
     using System.Windows.Forms;
 
+    using Albedo;
+
     using NUnit.Framework;
 
-    using Ploeh.Albedo;
     using Ploeh.AutoFixture;
     using Ploeh.AutoFixture.AutoRhinoMock;
     using Ploeh.AutoFixture.Idioms;
