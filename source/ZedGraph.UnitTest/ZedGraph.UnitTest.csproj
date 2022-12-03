@@ -126,17 +126,14 @@
       <HintPath>..\packages\NUnitTestAdapter.WithFramework.2.0.0\lib\NUnit.VisualStudio.TestAdapter.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Ploeh.AutoFixture, Version=3.34.2.0, Culture=neutral, PublicKeyToken=b24654c590009d4f, processorArchitecture=MSIL">
-      <HintPath>..\packages\AutoFixture.3.34.2\lib\net40\Ploeh.AutoFixture.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Ploeh.AutoFixture, Version=3.51.0.0, Culture=neutral, PublicKeyToken=b24654c590009d4f, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoFixture.3.51.0\lib\net40\Ploeh.AutoFixture.dll</HintPath>
     </Reference>
-    <Reference Include="Ploeh.AutoFixture.AutoRhinoMock, Version=3.34.2.0, Culture=neutral, PublicKeyToken=b24654c590009d4f, processorArchitecture=MSIL">
-      <HintPath>..\packages\AutoFixture.AutoRhinoMocks.3.34.2\lib\net40\Ploeh.AutoFixture.AutoRhinoMock.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Ploeh.AutoFixture.AutoRhinoMock, Version=3.51.0.0, Culture=neutral, PublicKeyToken=b24654c590009d4f, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoFixture.AutoRhinoMocks.3.51.0\lib\net40\Ploeh.AutoFixture.AutoRhinoMock.dll</HintPath>
     </Reference>
-    <Reference Include="Ploeh.AutoFixture.Idioms, Version=3.34.2.0, Culture=neutral, PublicKeyToken=b24654c590009d4f, processorArchitecture=MSIL">
-      <HintPath>..\packages\AutoFixture.Idioms.3.34.2\lib\net40\Ploeh.AutoFixture.Idioms.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Ploeh.AutoFixture.Idioms, Version=3.51.0.0, Culture=neutral, PublicKeyToken=b24654c590009d4f, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoFixture.Idioms.3.51.0\lib\net40\Ploeh.AutoFixture.Idioms.dll</HintPath>
     </Reference>
     <Reference Include="Rhino.Mocks, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0b3305902db7183f, processorArchitecture=MSIL">
       <HintPath>..\packages\RhinoMocks.3.6.1\lib\net\Rhino.Mocks.dll</HintPath>
@@ -205,6 +202,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
