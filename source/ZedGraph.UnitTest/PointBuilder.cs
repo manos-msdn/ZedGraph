@@ -17,9 +17,9 @@ namespace ZedGraph
                 return new Point(x, y);
             }
 
-            return new NoSpecimen(request);
+            return new NoSpecimen();
         }
 
-        #endregion
+        #endregion Methods
     }
 }
